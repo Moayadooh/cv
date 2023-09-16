@@ -1,62 +1,136 @@
-.form-control-dark {
-  border-color: var(--bs-gray);
-}
-.form-control-dark:focus {
-  border-color: #fff;
-  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+/*Declare Font Type*/
+@font-face {
+  font-family: "Tajawal Regular";
+  src: url("../fonts/Tajawal-Regular.ttf");
 }
 
-.text-small {
-  font-size: 85%;
+@font-face {
+  font-family: "Tajawal Medium";
+  src: url("../font/Tajawal-Medium.ttf");
 }
 
-.dropdown-toggle:not(:focus) {
-  outline: 0;
+@font-face {
+  font-family: "Tajawal Bold";
+  src: url("../font/Tajawal-Bold.ttf");
 }
 
-#head .card-body i {
-  font-size: 24px;
+@font-face {
+  font-family: "Tajawal ExtraBold";
+  src: url("../font/Tajawal-ExtraBold.ttf");
 }
 
-.my-container {
+@font-face {
+  font-family: "Tajawal Light";
+  src: url("../font/Tajawal-Light.ttf");
+}
+
+@font-face {
+  font-family: "Tajawal ExtraLight";
+  src: url("../font/Tajawal-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "Tajawal Black";
+  src: url("../font/Tajawal-Black.ttf");
+}
+
+/*My Container*/
+#head .my-container {
   display: flex;
   gap: 50px;
 }
 
-.my-container .box:nth-child(1) {
+#head .my-container > .box:nth-child(1) {
   flex: 25%;
 }
 
-.my-container .box:nth-child(2) {
+#head .my-container > .box:nth-child(2) {
   flex: 75%;
 }
 
-.small-screen {
+#head .small-screen {
   display: none;
 }
 
+/*My Card - Personal Information (name, image, mobile, email, location)*/
+#head h1 {
+  margin-top: 50px;
+}
+
+#head .my-card {
+  max-width: 10rem;
+}
+
+#head .my-card > img {
+  border-radius: 50%;
+}
+
+#head .my-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#head .my-card-body .box.point {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #fd8028;
+}
+
+#head .my-card-body .box.icon i {
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+#head .my-card-body .box.point:nth-child(1) {
+  margin-top: 10px;
+}
+
+/*My Background (Exerience, Education)*/
+#head .basic-info h3,
+#head .basic-info .date-from-to {
+  color: #fd8028;
+  /* color: rgb(247, 111, 0); */
+}
+
 @media screen and (max-width: 768px) {
-  .big-screen {
+  #head h1 {
+    text-align: center;
+  }
+
+  #head .big-screen {
     display: none;
   }
 
-  .small-screen {
+  #head .small-screen {
     display: block;
   }
 
-  h1 {
-    text-align: center;
-  }
-
-  .card {
+  #head .my-card {
     margin: auto;
   }
 
-  .basic-info {
-    text-align: center;
+  #head .basic-info {
+    max-width: 75%;
+    margin: auto;
   }
 }
 
-.my-accordion {
+/*Accordion (Skills, Tools & Technology, etc)*/
+#head .my-accordion {
   margin-bottom: 50px;
+}
+
+#head .my-accordion .accordion-header button {
+  color: #fd8028;
 }
