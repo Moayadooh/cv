@@ -134,3 +134,7 @@
 #head .my-accordion .accordion-header button {
   color: #fd8028;
 }
+
+#head .my-accordion a {
+  color: #000000;
+}

@@ -97,7 +97,7 @@
                 <strong>August 30 2020 - February 11 2021</strong>
               </div>
               <div><strong>Exceed IT Services</strong></div>
-              <p>Full Stack .NET Developer Intern</p>
+              <p>Full Stack .NET Developer Internship</p>
             </div>
             <div class="basic-info mt-3">
               <div class="date-from-to">
@@ -236,18 +236,55 @@
                     <div class="accordion-body">
                       <ul>
                         <li>
-                          Microsoft Certified Solutions Associate: Web
-                          Applications
+                          <a
+                            href="https://www.credly.com/badges/f498ec6a-4403-47e5-892d-5729c4fc6f76?source=linked_in_profile"
+                            target="_blank"
+                            >Microsoft Certified Solutions Associate: Web
+                            Applications</a
+                          >
                         </li>
-                        <li>Microsoft Certified: Azure Fundamentals</li>
-                        <li>Data Structure and Algorithms (Udemy)</li>
                         <li>
-                          How to Hack and Secure a Web Application (Udemy)
+                          <a
+                            href="https://www.credly.com/badges/ffa08b00-ab94-4655-a95d-e4d294cfc6cd?source=linked_in_profile"
+                            target="_blank"
+                            >Microsoft Certified: Azure Fundamentals</a
+                          >
                         </li>
-                        <li>React and Redux (Udemy)</li>
-                        <li>PHP With MySql - Procedural Part (Udemy)</li>
                         <li>
-                          Learning Shell Scripting: How to Automate Your Tasks
+                          <a
+                            href="https://www.udemy.com/certificate/UC-d93b2199-e7ba-45e1-8816-59e7bf5108e5/"
+                            target="_blank"
+                            >Data Structure and Algorithms (Udemy)</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="https://www.udemy.com/certificate/UC-d6bb7933-d72b-40a5-b9b0-3f6afc8eb7e9/"
+                            target="_blank"
+                            >How to Hack and Secure a Web Application (Udemy)</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="https://www.udemy.com/certificate/UC-d21a45be-b9f5-401c-860f-849a4d735123/"
+                            target="_blank"
+                            >React and Redux (Udemy)</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="https://www.udemy.com/certificate/UC-9THNW0E0/"
+                            target="_blank"
+                            >PHP With MySql - Procedural Part (Udemy)</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="https://www.udemy.com/certificate/UC-5b678d16-b0da-4233-9b16-1258fb1c9e12/"
+                            target="_blank"
+                            >Learning Shell Scripting: How to Automate Your
+                            Tasks</a
+                          >
                         </li>
                       </ul>
                     </div>
@@ -274,17 +311,29 @@
                     <div class="accordion-body">
                       <ul>
                         <li>
-                          Water Control System for AL-Nakheel Tree Using Fuzzy
-                          Logic with Trend Analysis
+                          <a
+                            href="https://www.researchgate.net/publication/344897447_Water_Control_System_for_Al_Nakheel_Tree_Using_Fuzzy_Logic_with_Trend_Analysis"
+                            target="_blank"
+                            >Water Control System for AL-Nakheel Tree Using
+                            Fuzzy Logic with Trend Analysis</a
+                          >
                         </li>
                         <li>
-                          Comparitive Analysis and Findings on DCT & LBG
-                          Compression Techniques
+                          <a
+                            href="https://www.researchgate.net/publication/342479814_Comparative_Analysis_and_Findings_on_DCT_LBG_Compression_Techniques"
+                            target="_blank"
+                            >Comparitive Analysis and Findings on DCT & LBG
+                            Compression Techniques</a
+                          >
                         </li>
                         <li>
-                          IoT based Date Palm Water Management System Using
-                          Case-Based Reasoning and Linear Regression for Trend
-                          Analysis
+                          <a
+                            href="https://thesai.org/Publications/ViewPaper?Volume=13&Issue=2&Code=IJACSA&SerialNo=64"
+                            target="_blank"
+                            >IoT based Date Palm Water Management System Using
+                            Case-Based Reasoning and Linear Regression for Trend
+                            Analysis</a
+                          >
                         </li>
                       </ul>
                     </div>
@@ -637,5 +686,41 @@
       crossorigin="anonymous"
     ></script>
     <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+    <!-- <script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script>
+      
+      window.jsPDF = window.jspdf.jsPDF;
+      var doc = new jsPDF();
+
+      // Source HTMLElement or a string containing HTML.
+      var elementHTML = document.querySelector("body");
+      function exportHTMLtoPDF() {
+        //window.html2canvas = html2canvas;
+        doc.html(elementHTML, {
+          callback: function (doc) {
+            // Save the PDF
+            doc.save("sample-document.pdf");
+          },
+          x: 15,
+          y: 15,
+          width: 170, //target width in the PDF document
+          windowWidth: 650, //window width in CSS pixels
+        });
+      }
+    </script> -->
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+      integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      function exportHTMLtoPDF() {
+        let htmlElement = document.getElementById("head");
+
+        html2pdf().from(htmlElement).save("exported_file.pdf");
+      }
+    </script> -->
   </body>
 </html>
