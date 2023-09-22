@@ -35,51 +35,51 @@
 }
 
 /*My Container*/
-#head .my-container {
+#cv .my-container {
   display: flex;
   gap: 50px;
 }
 
-#head .my-container > .box:nth-child(1) {
+#cv .my-container > .box:nth-child(1) {
   flex: 25%;
 }
 
-#head .my-container > .box:nth-child(2) {
+#cv .my-container > .box:nth-child(2) {
   flex: 75%;
 }
 
-#head .small-screen {
+#cv .small-screen {
   display: none;
 }
 
 /*My Card - Personal Information (name, image, mobile, email, location)*/
-#head h1 {
+#cv h1 {
   margin-top: 50px;
 }
 
-#head .my-card {
+#cv .my-card {
   max-width: 10rem;
 }
 
-#head .my-card > img {
+#cv .my-card > img {
   border-radius: 50%;
 }
 
-#head .my-card-body {
+#cv .my-card-body {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
 }
 
-#head .my-card-body .box.point {
+#cv .my-card-body .box.point {
   width: 5px;
   height: 5px;
   border-radius: 50%;
   background-color: #fd8028;
 }
 
-#head .my-card-body .box.icon i {
+#cv .my-card-body .box.icon i {
   width: 50px;
   height: 50px;
   font-size: 24px;
@@ -92,49 +92,49 @@
   margin: auto;
 }
 
-#head .my-card-body .box.point:nth-child(1) {
+#cv .my-card-body .box.point:nth-child(1) {
   margin-top: 10px;
 }
 
 /*My Background (Exerience, Education)*/
-#head .basic-info h3,
-#head .basic-info .date-from-to {
+#cv .basic-info h3,
+#cv .basic-info .date-from-to {
   color: #fd8028;
   /* color: rgb(247, 111, 0); */
 }
 
 @media screen and (max-width: 768px) {
-  #head h1 {
+  #cv h1 {
     text-align: center;
   }
 
-  #head .big-screen {
+  #cv .big-screen {
     display: none;
   }
 
-  #head .small-screen {
+  #cv .small-screen {
     display: block;
   }
 
-  #head .my-card {
+  #cv .my-card {
     margin: auto;
   }
 
-  #head .basic-info {
+  #cv .basic-info {
     max-width: 90%;
     margin: auto;
   }
 }
 
 /*Accordion (Skills, Tools & Technology, etc)*/
-#head .my-accordion {
+#cv .my-accordion {
   margin-bottom: 50px;
 }
 
-#head .my-accordion .accordion-header button {
+#cv .my-accordion .accordion-header button {
   color: #fd8028;
 }
 
-#head a {
+/* #cv a {
   color: #000000;
-}
+} */
