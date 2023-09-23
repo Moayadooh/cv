@@ -1,0 +1,12 @@
+{
+    "en": {
+        "PersonalInfo.Name": "Muayad Al Falahi",
+        "PersonalInfo.Location": "Barka, Al Batinah South, Oman",
+        "BasicInfo.WorkExperience": "Work Experience"
+    },
+    "ar": {
+        "PersonalInfo.Name": "مؤيد الفلاحي",
+        "PersonalInfo.Location": "بركاء، جنوب الباطنة، عمان",
+        "BasicInfo.WorkExperience": "الخبرة العملية"
+    }
+}

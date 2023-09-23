@@ -106,6 +106,7 @@
 @media screen and (max-width: 768px) {
   #cv h1 {
     text-align: center;
+    margin-top: 25px;
   }
 
   #cv .big-screen {
