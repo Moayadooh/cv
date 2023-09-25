@@ -3,12 +3,16 @@
         "Button.ChangeLang": "عربي",
         "PersonalInfo.Name": "Muayad Al Falahi",
         "PersonalInfo.Location": "Barka, Al Batinah South, Oman",
-        "BasicInfo.WorkExperience": "Work Experience"
+        "BasicInfo.WorkExperience": "Work Experience",
+        "BasicInfo.WorkExperience.NorthSystems": "North Systems",
+        "BasicInfo.WorkExperience.NorthSystems.Date": "February 15 2021 - May 06 2021"
     },
     "ar": {
         "Button.ChangeLang": "English",
         "PersonalInfo.Name": "مؤيد الفلاحي",
         "PersonalInfo.Location": "بركاء، جنوب الباطنة، عمان",
-        "BasicInfo.WorkExperience": "الخبرة العملية"
+        "BasicInfo.WorkExperience": "الخبرة العملية",
+        "BasicInfo.WorkExperience.NorthSystems": "أنظمة الشمال",
+        "BasicInfo.WorkExperience.NorthSystems.Date": "فبراير 15 2021 - مايو 06 2021"
     }
 }

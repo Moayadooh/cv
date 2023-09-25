@@ -27,12 +27,12 @@
 <body>
   <section id="cv">
     <div class="container mt-3">
+      <!-- Changing language button -->
       <div id="ChangeLang">
-        <button class="btn btn-outline-secondary translate lang" key="Button.ChangeLang"></button>
-        <!-- <button class="btn btn-outline-secondary translate" id="ar">عربي</button> -->
+        <button class="btn btn-secondary translate lang" key="Button.ChangeLang"></button>
       </div>
       <div class="my-container">
-        <!-- Personal Information for PC and Laptop Screen -->
+        <!-- Personal Information for PC and Laptop Screens -->
         <div class="box big-screen">
           <div class="my-card text-center">
             <img src="images/muayad.jpg" class="img-fluid" alt="..." />
@@ -41,7 +41,7 @@
               <div class="box point"></div>
               <div class="box icon">
                 <i class="fa-solid fa-mobile-screen-button"></i>
-                <div class="text">+968 96430801</div>
+                <div class="text" style="direction: ltr;">+968 96430801</div>
               </div>
               <div class="box point"></div>
               <div class="box point"></div>
@@ -61,7 +61,7 @@
 
         <div class="box">
           <h1 class="lang" key="PersonalInfo.Name"></h1>
-          <!-- Personal Information for Ipad and Mobile Screen -->
+          <!-- Personal Information for Tablet and Mobile Screens -->
           <div class="my-card text-center small-screen">
             <img src="images/muayad.jpg" class="img-fluid" alt="..." />
             <div class="my-card-body">
@@ -69,7 +69,7 @@
               <div class="box point"></div>
               <div class="box icon">
                 <i class="fa-solid fa-mobile-screen-button"></i>
-                <div class="text">+968 96430801</div>
+                <div class="text" style="direction: ltr;">+968 96430801</div>
               </div>
               <div class="box point"></div>
               <div class="box point"></div>
@@ -101,9 +101,9 @@
           </div>
           <div class="basic-info mt-3">
             <div class="date-from-to">
-              <strong>February 15 2021 - May 06 2021</strong>
+              <strong class="lang" key="BasicInfo.WorkExperience.NorthSystems.Date"></strong>
             </div>
-            <div><strong>North Systems</strong></div>
+            <div><strong class="lang" key="BasicInfo.WorkExperience.NorthSystems"></strong></div>
             <p>.Net Developer</p>
           </div>
           <div class="basic-info mt-3">
@@ -488,11 +488,11 @@
 
     function SetBtnLanguage(lang) {
       if (lang == "en") {
-        $(".translate").attr("id", "ar");
         $("#arabicCSSLink").remove();
+        $(".translate").attr("id", "ar");
       } else {
-        $(".translate").attr("id", "en");
         createElement('css/site.ar.css');
+        $(".translate").attr("id", "en");
       }
     }
 
