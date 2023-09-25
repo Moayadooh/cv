@@ -1,10 +1,12 @@
 {
     "en": {
+        "Button.ChangeLang": "عربي",
         "PersonalInfo.Name": "Muayad Al Falahi",
         "PersonalInfo.Location": "Barka, Al Batinah South, Oman",
         "BasicInfo.WorkExperience": "Work Experience"
     },
     "ar": {
+        "Button.ChangeLang": "English",
         "PersonalInfo.Name": "مؤيد الفلاحي",
         "PersonalInfo.Location": "بركاء، جنوب الباطنة، عمان",
         "BasicInfo.WorkExperience": "الخبرة العملية"

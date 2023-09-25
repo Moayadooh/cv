@@ -1,37 +1,9 @@
-/*Declare Font Type*/
-@font-face {
-  font-family: "Tajawal Regular";
-  src: url("../fonts/Tajawal-Regular.ttf");
+body {
+  direction: ltr;
 }
 
-@font-face {
-  font-family: "Tajawal Medium";
-  src: url("../font/Tajawal-Medium.ttf");
-}
-
-@font-face {
-  font-family: "Tajawal Bold";
-  src: url("../font/Tajawal-Bold.ttf");
-}
-
-@font-face {
-  font-family: "Tajawal ExtraBold";
-  src: url("../font/Tajawal-ExtraBold.ttf");
-}
-
-@font-face {
-  font-family: "Tajawal Light";
-  src: url("../font/Tajawal-Light.ttf");
-}
-
-@font-face {
-  font-family: "Tajawal ExtraLight";
-  src: url("../font/Tajawal-ExtraLight.ttf");
-}
-
-@font-face {
-  font-family: "Tajawal Black";
-  src: url("../font/Tajawal-Black.ttf");
+#ChangeLang {
+  text-align: right;
 }
 
 /*My Container*/
@@ -40,11 +12,11 @@
   gap: 50px;
 }
 
-#cv .my-container > .box:nth-child(1) {
+#cv .my-container>.box:nth-child(1) {
   flex: 25%;
 }
 
-#cv .my-container > .box:nth-child(2) {
+#cv .my-container>.box:nth-child(2) {
   flex: 75%;
 }
 
@@ -61,7 +33,7 @@
   max-width: 10rem;
 }
 
-#cv .my-card > img {
+#cv .my-card>img {
   border-radius: 50%;
 }
 
@@ -139,3 +111,39 @@
 /* #cv a {
   color: #000000;
 } */
+
+/*Declare Font Type*/
+@font-face {
+  font-family: "Tajawal Regular";
+  src: url("../fonts/Tajawal-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Tajawal Medium";
+  src: url("../font/Tajawal-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Tajawal Bold";
+  src: url("../font/Tajawal-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Tajawal ExtraBold";
+  src: url("../font/Tajawal-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Tajawal Light";
+  src: url("../font/Tajawal-Light.ttf");
+}
+
+@font-face {
+  font-family: "Tajawal ExtraLight";
+  src: url("../font/Tajawal-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "Tajawal Black";
+  src: url("../font/Tajawal-Black.ttf");
+}

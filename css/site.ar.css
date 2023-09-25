@@ -1,0 +1,12 @@
+body {
+    direction: rtl;
+}
+
+#ChangeLang {
+    text-align: left;
+}
+
+.accordion-button::after {
+    margin-left: 0;
+    margin-right: auto;
+}
