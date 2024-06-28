@@ -42,6 +42,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  margin-bottom: 30px;
 }
 
 #cv .my-card-body .box.point {
