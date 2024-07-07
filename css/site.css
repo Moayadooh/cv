@@ -1,0 +1,151 @@
+body {
+  direction: ltr;
+}
+
+#ChangeLang {
+  text-align: right;
+}
+
+/*My Container*/
+#cv .my-container {
+  display: flex;
+  gap: 50px;
+}
+
+#cv .my-container>.box:nth-child(1) {
+  flex: 25%;
+}
+
+#cv .my-container>.box:nth-child(2) {
+  flex: 75%;
+}
+
+#cv .small-screen {
+  display: none;
+}
+
+/*My Card - Personal Information (name, image, mobile, email, location)*/
+#cv h1 {
+  margin-top: 50px;
+}
+
+#cv .my-card {
+  max-width: 10rem;
+}
+
+#cv .my-card>img {
+  border-radius: 50%;
+}
+
+#cv .my-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+#cv .my-card-body .box.point {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #fd8028;
+}
+
+#cv .my-card-body .box.icon i {
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+#cv .my-card-body .box.point:nth-child(1) {
+  margin-top: 10px;
+}
+
+/*My Background (Exerience, Education)*/
+#cv .basic-info h3,
+#cv .basic-info .date-from-to {
+  color: #fd8028;
+  /* color: rgb(247, 111, 0); */
+}
+
+/*Mobile and Tablet Screen*/
+@media screen and (max-width: 768px) {
+  #cv h1 {
+    text-align: center;
+    /* margin-top: 25px; */
+  }
+
+  #cv .big-screen {
+    display: none;
+  }
+
+  #cv .small-screen {
+    display: block;
+  }
+
+  #cv .my-card {
+    margin: auto;
+  }
+
+  #cv .basic-info {
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
+/*Accordion (Skills, Tools & Technology, etc)*/
+#cv .my-accordion {
+  margin-bottom: 50px;
+}
+
+#cv .my-accordion .accordion-header button {
+  color: #fd8028;
+}
+
+/* #cv a {
+  color: #000000;
+} */
+
+/*Declare Font Type*/
+@font-face {
+  font-family: "Tajawal Regular";
+  src: url("../fonts/Tajawal-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Tajawal Medium";
+  src: url("../font/Tajawal-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Tajawal Bold";
+  src: url("../font/Tajawal-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Tajawal ExtraBold";
+  src: url("../font/Tajawal-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Tajawal Light";
+  src: url("../font/Tajawal-Light.ttf");
+}
+
+@font-face {
+  font-family: "Tajawal ExtraLight";
+  src: url("../font/Tajawal-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "Tajawal Black";
+  src: url("../font/Tajawal-Black.ttf");
+}
