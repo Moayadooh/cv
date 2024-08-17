@@ -27,28 +27,12 @@
 <body>
   <section id="cv">
     <div class="container mt-5">
-      <!-- Changing language button -->
-      <!-- <div id="ChangeLang">
-        <button class="btn btn-secondary translate lang" key="Button.ChangeLang"></button>
-      </div> -->
       <div class="my-container">
         <!-- Personal Information for PC and Laptop Screens -->
         <div class="box big-screen">
           <div class="my-card text-center">
             <img src="images/muayad_2023.JPG" class="img-fluid" alt="..." />
             <div class="my-card-body">
-              <!-- <div class="box point"></div>
-              <div class="box point"></div>
-              <div class="box icon">
-                <i class="fa-solid fa-mobile-screen-button"></i>
-                <div class="text" style="direction: ltr;"></div>
-              </div>
-              <div class="box point"></div>
-              <div class="box point"></div>
-              <div class="box icon">
-                <i class="fa-regular fa-envelope"></i>
-                <div class="text"></div>
-              </div> -->
               <div class="box point"></div>
               <div class="box point"></div>
               <div class="box icon">
@@ -69,14 +53,6 @@
                 <i class="fa-solid fa-map-location-dot"></i>
                 <div class="text lang" key="PersonalInfo.Location">Barka, Al Batinah South, Oman</div>
               </div>
-              <!-- <div class="box point"></div>
-              <div class="box point"></div>
-              <div class="box icon">
-                <i class="fa-solid fa-download"></i>
-                <div class="text"><a
-                    href="documents/Resume.pdf"
-                    target="_blank">Dwonload CV</a></div>
-              </div> -->
             </div>
           </div>
         </div>
@@ -87,18 +63,6 @@
           <div class="my-card text-center small-screen">
             <img src="images/muayad_2023.JPG" class="img-fluid" alt="..." />
             <div class="my-card-body">
-              <!-- <div class="box point"></div>
-              <div class="box point"></div>
-              <div class="box icon">
-                <i class="fa-solid fa-mobile-screen-button"></i>
-                <div class="text" style="direction: ltr;"></div>
-              </div>
-              <div class="box point"></div>
-              <div class="box point"></div>
-              <div class="box icon">
-                <i class="fa-regular fa-envelope"></i>
-                <div class="text"></div>
-              </div> -->
               <div class="box point"></div>
               <div class="box point"></div>
               <div class="box icon">
@@ -119,14 +83,6 @@
                 <i class="fa-solid fa-map-location-dot"></i>
                 <div class="text lang" key="PersonalInfo.Location">Barka, Al Batinah South, Oman</div>
               </div>
-              <!-- <div class="box point"></div>
-              <div class="box point"></div>
-              <div class="box icon">
-                <i class="fa-solid fa-download"></i>
-                <div class="text"><a
-                    href="documents/Resume.pdf"
-                    target="_blank">Dwonload CV</a></div>
-              </div> -->
             </div>
           </div>
 
@@ -138,23 +94,23 @@
             </div>
             <div><strong>Exceed IT Services</strong></div>
             <p>
-              Full Stack .NET Developer Internship
+              Web Development Intern
               <a href="documents/Web Development Training - Muayad Al Falahi.pdf" target="_blank">View Experience
                 Letter</a>
             </p>
           </div>
-          <!-- <div class="basic-info mt-3">
+          <div class="basic-info mt-3">
             <div class="date-from-to">
               <strong class="lang" key="BasicInfo.WorkExperience.NorthSystems.Date">February 15 2021 - May 06
                 2021</strong>
             </div>
             <div><strong class="lang" key="BasicInfo.WorkExperience.NorthSystems">North Systems</strong></div>
             <p>.Net Developer</p>
-          </div> -->
+          </div>
           <div class="basic-info mt-3">
             <div class="date-from-to"><strong>May 23 2021 -</strong></div>
             <div><strong>Muscat Clearing and Depository</strong></div>
-            <p>Full Stack .NET Developer</p>
+            <p>Full Stack Developer</p>
           </div>
           <!-- Education -->
           <div class="basic-info mt-3">
@@ -203,7 +159,7 @@
                           </li>
                           <li>
                             Develop full MVC application
-                            <a href="videos/MVC Application - Modified.mp4" target="_blank">(Demo)</a>
+                            <a href="https://youtu.be/v9YcdRNV87Y" target="_blank">(Demo)</a>
                             <a href="documents/Web Application.pdf" target="_blank">(Application Features)</a>
                           </li>
                         </ul>
@@ -223,15 +179,15 @@
                           <li>
                             Creating 3D animation using OpenGL (Open Graphics
                             Library) in C++
-                            <a href="videos/OpenGL Animation.mp4" target="_blank">Demo</a>
+                            <a href="https://youtu.be/r2ParSfdSKM" target="_blank">Demo</a>
                           </li>
                           <li>
                             Creating 3D animation using Blender
-                            <a href="videos/Ball Animation Project.mp4" target="_blank">Demo</a>
+                            <a href="https://youtu.be/tU2n1cmNIVE" target="_blank">Demo</a>
                           </li>
                           <li>
                             Creating 3D computer game using Unity Platform
-                            <a href="videos/Computer Game.mp4" target="_blank">Demo</a>
+                            <a href="https://youtu.be/pyZaOcIBIyA" target="_blank">Demo</a>
                           </li>
                           <li>
                             Creating brochure using Adobe Photoshop
@@ -502,94 +458,6 @@
     crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
   <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
-
-  <!-- Localization -->
-  <!-- <script>
-    $(document).ready(function () {
-      // https://stackoverflow.com/questions/48137394/build-multiple-language-website-using-jquery-and-json-based-methods
-
-      //get current language from local storage of the browser
-      let lang = localStorage.getItem("lang") || "en";
-
-      ChangeTextLanguage(lang);
-      SetBtnLanguage(lang);
-    });
-
-    // get/set the selected language
-    $(".translate").click(function () {
-      let lang = $(this).attr("id");
-
-      //store language in local storage of the browser
-      localStorage.setItem("lang", lang);
-
-      ChangeTextLanguage(lang);
-      SetBtnLanguage(lang);
-    });
-
-    function SetBtnLanguage(lang) {
-      if (lang == "en") {
-        $("#arabicCSSLink").remove();
-        $(".translate").attr("id", "ar");
-      } else {
-        createElement('css/site.ar.css');
-        $(".translate").attr("id", "en");
-      }
-    }
-
-    function createElement(path) {
-      var arabicCSSLink = document.createElement("link");
-      arabicCSSLink.href = path;
-      arabicCSSLink.rel = "stylesheet";
-      arabicCSSLink.id = "arabicCSSLink";
-      document.head.appendChild(arabicCSSLink);
-    }
-
-    function ChangeTextLanguage(lang) {
-      $.getJSON("languages.json", function (languages) {
-        $(".lang").each(function (index, element) {
-          $(this).text(languages[lang][$(this).attr("key")]);
-        });
-      });
-    }
-  </script> -->
-
-  <!-- Export to PDF -->
-  <!-- <script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script> -->
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <script>
-      
-      window.jsPDF = window.jspdf.jsPDF;
-      var doc = new jsPDF();
-
-      // Source HTMLElement or a string containing HTML.
-      var elementHTML = document.querySelector("body");
-      function exportHTMLtoPDF() {
-        //window.html2canvas = html2canvas;
-        doc.html(elementHTML, {
-          callback: function (doc) {
-            // Save the PDF
-            doc.save("sample-document.pdf");
-          },
-          x: 15,
-          y: 15,
-          width: 170, //target width in the PDF document
-          windowWidth: 650, //window width in CSS pixels
-        });
-      }
-    </script> -->
-  <!-- <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
-      integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script>
-      function exportHTMLtoPDF() {
-        let htmlElement = document.getElementById("head");
-
-        html2pdf().from(htmlElement).save("exported_file.pdf");
-      }
-    </script> -->
 </body>
 
 </html>
