@@ -78,7 +78,7 @@ body {
 
 /*Mobile and Tablet Screen*/
 @media screen and (max-width: 768px) {
-  #cv h1 {
+  #cv h1, #cv p {
     text-align: center;
     /* margin-top: 25px; */
   }
